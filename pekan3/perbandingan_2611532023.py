@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Buat file dengan nama perbandingan_NIM.py
 # Nama variabel ditambah 4 digit nim terakhir contoh: angka1_1234
 # Program ini menngunakan fungsi input()
@@ -43,4 +44,51 @@ print("\nPerbandingan berantai")
 print("0 < angka1_2023 < 100 =",hasil_2023)
 
 hasil_2023 = 0 < angka2_2023 < 100
+=======
+# Buat file dengan nama perbandingan_NIM.py
+# Nama variabel ditambah 4 digit nim terakhir contoh: angka1_1234
+# Program ini menngunakan fungsi input()
+# Nilai yang dimasukkan akan dikonversi menjadi tipe data integer
+# Program operator perbandingan dalam Python
+
+angka1_2023 = int(input("Input angka-1: "))
+angka2_2023 = int(input("Input angka-2: "))
+
+# Lebih besar dari
+hasil_2023 = angka1_2023 > angka2_2023
+print("\nOperator lebih besar dari")
+print("angka1 > angka2 =",hasil_2023)
+
+# Lebih kecil dari
+hasil_2023 = angka1_2023 < angka2_2023
+print("\nOperator lebih kecil dari")
+print("angka1 < angka2 =",hasil_2023)
+
+# Lebih besar dari atau sama dengan
+hasil_2023 = angka1_2023 >= angka2_2023
+print("\nOperator lebih besar dari atau sama dengan")
+print("angka1 >= angka2 =",hasil_2023)
+
+# Lebih kecil dari atau sama dengan
+hasil_2023 = angka1_2023 <= angka2_2023
+print("\nOperator lebih kecil dari atau sama dengan")
+print("angka1 <= angka2 =",hasil_2023)
+
+# Sama dengan
+hasil_2023 = angka1_2023 == angka2_2023
+print("\nOperator sama dengan")
+print("angka1 == angka2 =",hasil_2023)
+
+# Tidak sama dengan
+hasil_2023 = angka1_2023 != angka2_2023
+print("\nOperator tidak sama dengan")
+print("angka1 != angka2 =",hasil_2023)
+
+# Tambahan: perbandingan berantai dalam Python
+hasil_2023 = 0 < angka1_2023 < 100
+print("\nPerbandingan berantai")
+print("0 < angka1_2023 < 100 =",hasil_2023)
+
+hasil_2023 = 0 < angka2_2023 < 100
+>>>>>>> 52c64aa382874848ef580b0449d47e5add23e682
 print("0 < angka2_2023 < 100 =",hasil_2023)
