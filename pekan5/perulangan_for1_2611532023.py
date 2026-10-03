@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-ulang = int(input("Masukkan jumlah perulangan: "))
-for i in range(ulang):
-=======
-ulang = int(input("Masukkan jumlah perulangan: "))
-for i in range(ulang):
->>>>>>> e2c6ec5fd9f86723962f8bc8be37145094085115
-    print("Perulangan ke-", i + 1)
+ulang_2023 = int(input("Masukkan jumlah perulangan: "))
+for i_2023  in range(ulang_2023):
+    print("Perulangan ke-", i_2023 + 1)

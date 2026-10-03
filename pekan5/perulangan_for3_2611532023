@@ -1,30 +1,13 @@
-<<<<<<< HEAD
+ulang_2023 = int(input("Masukkan jumlah perulangan: "))
 
-
-ulang_2023 = int(input("Masukkan jumlah perulangan : "))
 jumlah_2023 = 0
-for i in range(1, ulang_2023+1):
+for i in range(1, ulang_2023 + 1):
     print(i, end=" ")
-    jumlah_2023 += i
+    jumlah_2023 = jumlah_2023 + i
 
     if i == ulang_2023:
         print(" + ", end=" ")
     else:
-        print("=", jumlah_2023, end=" " )
-
+        print(" = ", jumlah_2023, end=" ")
 print()
-=======
-ulang_2023 = int(input("Masukkan jumlah_2023 perulangan : "))
-jumlah_2023 = 0
-for i in range(1, ulang_2023+1):
-    print(i, end=" ")
-    jumlah_2023 += i
-
-    if i == ulang_2023:
-        print(" + ", end=" ")
-    else:
-        print(" = ", jumlah_2023, end=" " )
-
-print()
->>>>>>> e2c6ec5fd9f86723962f8bc8be37145094085115
 print("Jumlah =", jumlah_2023)
