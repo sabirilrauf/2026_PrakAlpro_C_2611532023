@@ -1,0 +1,70 @@
+print("==== PROGRAM JAM PASIR KRISTAL PALINDROMIK (PEKAN 5) ====")
+x_2023 = int(input("Masukkan ukuran skala jam pasir (N): "))
+
+# ---------- Bingkai atas ----------
+print("#", end="")
+for garis_2023 in range(4 * x_2023 + 5):
+    print("=", end="")
+print("#")
+
+# ---------- Fase 1: jam pasir atas (baris N turun s.d. 1) ----------
+for baris_2023 in range(x_2023, 0, -1):
+    print("|", end="")
+    print(" ", end="")
+    # spasi penyeimbang kiri
+    for spasi_kiri_2023 in range(2 * (x_2023 - baris_2023)):
+        print(" ", end="")
+    # deret angka mundur (baris -> 1)
+    for angka_mundur_2023 in range(baris_2023, 0, -1):
+        print(angka_mundur_2023, end=" ")
+    # poros kristal
+    print("<*>", end="")
+    # deret angka maju (1 -> baris)
+    for angka_maju_2023 in range(1, baris_2023 + 1):
+        print(" ", end="")
+        print(angka_maju_2023, end="")
+    # spasi penyeimbang kanan
+    for spasi_kanax_2023 in range(2 * (x_2023 - baris_2023)):
+        print(" ", end="")
+    print(" ", end="")
+    print("|", end="")
+    print()
+
+# ---------- Fase 2: poros titik pusat ----------
+print("|", end="")
+for spasi_kiri_2023 in range(2 * x_2023 + 1):
+    print(" ", end="")
+print("<*>", end="")
+for spasi_kanax_2023 in range(2 * x_2023 + 1):
+    print(" ", end="")
+print("|", end="")
+print()
+
+# ---------- Fase 3: jam pasir bawah (baris 1 naik s.d. N) ----------
+for baris_2023 in range(1, x_2023 + 1):
+    print("|", end="")
+    print(" ", end="")
+    # spasi penyeimbang kiri
+    for spasi_kiri_2023 in range(2 * (x_2023 - baris_2023)):
+        print(" ", end="")
+    # deret angka mundur (baris -> 1)
+    for angka_mundur_2023 in range(baris_2023, 0, -1):
+        print(angka_mundur_2023, end=" ")
+    # poros kristal
+    print("<*>", end="")
+    # deret angka maju (1 -> baris)
+    for angka_maju_2023 in range(1, baris_2023 + 1):
+        print(" ", end="")
+        print(angka_maju_2023, end="")
+    # spasi penyeimbang kanan
+    for spasi_kanax_2023 in range(2 * (x_2023 - baris_2023)):
+        print(" ", end="")
+    print(" ", end="")
+    print("|", end="")
+    print()
+
+# ---------- Bingkai bawah ----------
+print("#", end="")
+for garis_2023 in range(4 * x_2023 + 5):
+    print("=", end="")
+print("#")
