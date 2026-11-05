@@ -5,6 +5,6 @@ while True:
         break
     if number == 0 :
         continue
-    print(f"positive number: {number}")
+    print("Positive number: ",number)
     total += number
-print(f"total : {total}")    
+print("Total: ",total)    
