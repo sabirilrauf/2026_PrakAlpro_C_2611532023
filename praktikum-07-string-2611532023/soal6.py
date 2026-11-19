@@ -8,7 +8,7 @@ print(full_name.title())
 # Name: SABIRIL RAUF
 # NIM: 2611532023
 # Question 6
-full_name = "  Siti Aisyah  "
+full_name = "kartika"
 nim = "2610511023"
 
 name = full_name.strip()

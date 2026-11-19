@@ -16,6 +16,7 @@ elif not username.isalnum():
     print("Invalid: letters and digits only") 
 elif not username[0].isalpha():
     print("Invalid: must start with a letter")
+
 else:
     print("Valid")
 
